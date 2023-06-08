@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+body {
+    
+    background-color: #f2f2f2db;
+  }
+.introduction {
+  margin-left: 10%;
+  }
+.introduction p{
+  margin-top: 2%;
+  font-size: 20px;
+}
+.introduction h1 {
+  color: black;
+  font-size: 40px;
+  margin-top: 20px; /* 跟上面的neibour 隔着多少*/
+
+}
+.introduction h1 span:hover{
+  color: #ff6600;
+  transition: 0.5s;
+}
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+#header{
+  background-image: url(photo/background2.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+  .center_transparent_box{
+   
+    position: relative;
+    padding: 10px 10%;
+    width: 100%;
+    height: 8vh;
+    background: hsla(188, 100%, 37%, .5);
+    transition: 0.5s;
+    
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Heading{
+    font-size: large ;
+  }
+  .Heading:hover {
+    color: #ff6600;
+    transition: 0.5s;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a::after{
+    content: '';
+    width:0;
+    height: 2px;
+    background:#ff6600 ;
+    position: absolute;
+    bottom:-5px;
+    left: 0;
+    transition: 0.5s;
+  }/*after 是这个东西的后面跟什么，absolute 调位置*/
+  nav ul li a:hover::after{
+    width: 100%;
+    height: 5px;
+  }/*hover 就是鼠标放上去会有什么样的变化*/
+  /*.center_transparent_box:hover{
+    height: 12vh;
+    font-size: 36px;
+  }*/
+  /* 前三个属于字的位置，relative position就是left 多少他就在left填多少*/
+  /*hsla 前三是颜色 .5是它的透明度越低越透明*/
+  /* background-image: url(photo/background2.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;*/
+    /* -----------------about-----*/
+
+#aboutMe {
+  padding: 0px, 0;
+  color: black;
+  background-color: rgb(38, 36, 36);
+ }
+.hori {
+  display: flex; /* display side by side */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+ }
+ .aboutImage1 {
+  max-width: 40%;
+ }
+.aboutImage1 img {
+  max-width: 80%;
+  border-radius: 15px;
+ }
+.aboutText {
+  flex-basis: 60%;
+  color: aliceblue;
+ }
+.aboutText h1 {
+  font-size: 28px;
+  font-weight: 800; /*深度*/
+}
+.aboutText p {
+  font-weight: 400;
+  font-size: 12px;
+}
+
