@@ -130,4 +130,28 @@ body {
   font-weight: 400;
   font-size: 12px;
 }
+.aboutTitles {
+  color: white;
+  display: flex;
+  margin: 20px 0 40px;
+}
+.aboutLinks {
+  margin-right: 50px;
+  position: relative;
+  cursor: pointer /*类似于可以点击，pointer出现另一个东西 */
+}
+.aboutLinks::after {
+  content: '';
+  width:0;
+  height: 2px;
+  background:#ff6600 ;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutLinks.IsActive::after{
+  width: 100%;
+  height: 3px;
+}
 
