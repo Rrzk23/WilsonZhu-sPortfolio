@@ -12,12 +12,7 @@ import { Route } from "react-router-dom";
 function App() {
   return (
     < >
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Portfolio" element={<Portfolio/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
-      </Routes>
+  <Home/>
     </>
   );
 }
