@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar';
 import AboutText from '../Components/AboutText';
 import "./About.css";
+import image from "../assests/background.gif";
 
 
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
           <div class="hori">
       
             <div class="aboutImage1">
-              <img src = './photo/background.gif'/>
+              <img src = {image} alt = "me"/>
             </div>
             <AboutText/>
             
