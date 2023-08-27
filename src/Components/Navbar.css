@@ -1,0 +1,64 @@
+.center_transparent_box{
+   
+    position: relative;
+    padding: 10px 10%;
+    width: 100%;
+    height: 8vh;
+    background: hsla(188, 100%, 37%, .5);
+    transition: 0.5s;
+    
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Heading{
+    font-size: large ;
+ 
+  }
+  .Heading a {
+    text-decoration: none;
+    color:black;
+  }
+  .Heading a:hover {
+    color: #ff6600;
+    transition: 0.5s;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a::after{
+    content: '';
+    width:0;
+    height: 2px;
+    background:#ff6600 ;
+    position: absolute;
+    bottom:-5px;
+    left: 0;
+    transition: 0.5s;
+  }/*after 是这个东西的后面跟什么，absolute 调位置*/
+  nav ul li a:hover::after{
+    width: 100%;
+    height: 5px;
+  }/*hover 就是鼠标放上去会有什么样的变化*/
+  /*.center_transparent_box:hover{
+    height: 12vh;
+    font-size: 36px;
+  }*/
+  /* 前三个属于字的位置，relative position就是left 多少他就在left填多少*/
+  /*hsla 前三是颜色 .5是它的透明度越低越透明*/
+  /* background-image: url(photo/background2.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;*/
+    /* -----------------about-----*/

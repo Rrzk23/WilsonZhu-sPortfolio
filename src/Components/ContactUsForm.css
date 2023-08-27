@@ -1,0 +1,8 @@
+.contactUsContainer {
+    background-color: orange;
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 25%;
+}

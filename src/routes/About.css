@@ -1,0 +1,19 @@
+#aboutMe {
+    padding: 0px, 0;
+    color: black;
+    background-color: rgb(38, 36, 36);
+    background-size: 100%;
+   }
+  .hori {
+    display: flex; /* display side by side */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+   }
+   .aboutImage1 {
+    max-width: 40%;
+   }
+  .aboutImage1 img {
+    max-width: 80%;
+    border-radius: 15px;
+   }

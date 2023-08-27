@@ -1,0 +1,8 @@
+.bar-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
