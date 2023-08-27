@@ -5,8 +5,10 @@
   box-sizing: border-box;
 }
 body {
-    
-    background-color: #f2f2f2db;
+    padding: 0px, 0;
+    color: black;
+    background-color: rgb(38, 36, 36);
+    background-size: 100%;
   }
 .introduction {
   margin-left: 10%;
@@ -58,8 +60,13 @@ body {
   }
   .Heading{
     font-size: large ;
+ 
   }
-  .Heading:hover {
+  .Heading a {
+    text-decoration: none;
+    color:black;
+  }
+  .Heading a:hover {
     color: #ff6600;
     transition: 0.5s;
   }
@@ -104,6 +111,7 @@ body {
   padding: 0px, 0;
   color: black;
   background-color: rgb(38, 36, 36);
+  background-size: 100%;
  }
 .hori {
   display: flex; /* display side by side */
@@ -123,11 +131,60 @@ body {
   color: aliceblue;
  }
 .aboutText h1 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 800; /*深度*/
 }
 .aboutText p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
+}
+.aboutTitles {
+  color: white;
+  display: flex;
+  margin: 20px 0 20px;
 }
 
+.aboutLinks {
+  margin-right: 50px;
+  position: relative;
+  cursor: pointer /*类似于可以点击，pointer出现另一个东西 */
+}
+.aboutLinks.IsActive{
+  transition: 0.5s;
+  font-size: 18px;
+}
+.aboutLinks::after {
+  content: '';
+  width:0;
+  height: 2px;
+  background:#ff6600 ;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: 0.5s;
+}
+
+.aboutLinks.IsActive::after{
+  width: 100%;
+  height: 3px;
+}
+.aboutTitlesContent ul li{
+  list-style: square;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.aboutTitlesContent ul li span {
+  
+  color: #ff6600;
+  font-size: 14px;
+}
+.aboutTitlesContent ul li a{
+  color: #ff6600;
+  font-size: 14px;
+}
+.aboutTitlesContent{
+  display: none;
+}
+.aboutTitlesContent.IsActive{
+  display: block;
+}
