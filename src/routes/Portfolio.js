@@ -6,25 +6,25 @@ const Portfolio = () => {
 
   const projects = [
     {
-      image: '../photo/eventStreaming.png', // Make sure the path is correct
+      image: './photo/eventStreaming.png', 
       link: 'https://www.google.com/',
       description: 'event streaming infrastructure',
       title:  'Event streaming system modelling',
     },
     {
-      image: '../photo/images.jpg', // Make sure the path is correct
+      image: '../photo/images.jpg', 
       link: 'https://example.com/project2',
       description: 'Project 2 Description',
       title:  'Satellite communicate system modelling',
     },
     {
-      image: '../photo/eventStreaming.png', // Make sure the path is correct
+      image: '../photo/eventStreaming.png',
       link: 'https://example.com/project2',
       description: 'Project 2 Description',
       title:  'Second',
     },
     {
-      image: '../photo/eventStreaming.png', // Make sure the path is correct
+      image: '../photo/eventStreaming.png', 
       link: 'https://example.com/project2',
       description: 'Project 2 Description',
       title:  'Second',

@@ -13,7 +13,7 @@ const About = () => {
           <div class="hori">
       
             <div class="aboutImage1">
-              <img src = "../photo/background.gif"/>
+              <img src = './photo/background.gif'/>
             </div>
             <AboutText/>
             
