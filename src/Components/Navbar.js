@@ -1,17 +1,18 @@
 import "./Navbar.css"
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
 <div className=  "center_transparent_box"> 
           <nav>
             <p className= "Heading">
-            <a href="/">MUKE Zhu</a></p>
+            <Link to="/">Home</Link></p>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/About">About Me</a></li>
-            <li><a href="/Portfolio">Portfolio</a></li>
-            <li><a href="/Contact">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/About">AboutMe</Link></li>
+            <li><Link to="/Portfolio">Portfolio</Link></li>
+            <li><Link to="/Contact">Contact Me</Link></li>
             
           </ul>
           </nav>
