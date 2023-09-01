@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       image: eventStreaming, 
       link: 'https://www.google.com/',
-      description: 'event streaming infrastructure',
+      description: 'This is a simplify version of Kafka ',
       title:  'Event streaming system modelling',
     },
     {
@@ -24,13 +24,13 @@ const Portfolio = () => {
       image: eventStreaming,
       link: 'https://example.com/project2',
       description: 'Project 2 Description',
-      title:  'Second',
+      title:  'Key Wrod Matching Algorithm',
     },
     {
       image: eventStreaming, 
       link: 'https://example.com/project2',
       description: 'Project 2 Description',
-      title:  'Second',
+      title:  '',
     },
     // Add more projects as needed
   ];
@@ -38,7 +38,8 @@ const Portfolio = () => {
     <div>
 
       <Navbar/>
-      <h1>My portfolio</h1>
+      <h1>My portfolio(not implement anything yet)</h1>
+      
       <div className="bar-row">
       {projects.map((project, index) => (
         <PortfolioBar

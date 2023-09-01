@@ -7,7 +7,7 @@ const Navbar = () => {
 <div className=  "center_transparent_box"> 
           <nav>
             <p className= "Heading">
-            <Link to="/">Home</Link></p>
+            <Link to="/">MUKE</Link></p>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/About">AboutMe</Link></li>

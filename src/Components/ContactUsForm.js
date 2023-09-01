@@ -6,17 +6,25 @@ const ContactUsForm = () => {
   return (
 <div className=  "contactUsContainer"> 
 
-<h1>Contact Me !</h1>
-<form class = "form-box">
 
-    <TextBox id = 'firstName' content = 'First Name'/>
-    <TextBox id = 'lastName' content = 'Last Name'/>
-    <TextBox id = 'email' content = 'E-mail'/>
+<form class = "form-box">
+    <h1 className="form-title">Contact Me !</h1>
+    <div className="textBox-row">
+    <TextBox id = 'firstName' content = 'First Name' isRequired={true}/>
+    <TextBox id = 'lastName' content = 'Last Name' isRequired={true}/>
+    </div>
+    <div className="textBox-row">
+    <TextBox id = 'email' content = 'E-mail' isRequired={true}/>
     <TextBox id = 'phoneNumber' content = 'Phone Number'/>
-    <TextBox id = 'comments' content = 'Any things you would like to say to me :)'/>
- 
+    </div>
+    <div className="textBox-row">
+    <TextBox id = 'comments' content = 'Any things you would like to say to me :)' isTextArea={true}/>
+    </div>
+    <div className="textBox-row">
+    <button className="submitButton" type = 'submit'>Submit</button>
+    </div>
 </form>
-<button>a</button>
+
 </div>
   )
 }

@@ -1,8 +1,36 @@
 .contactUsContainer {
-    background-color: orange;
-    height: 500px;
+    background-color: transparent;
+    height: 100vh;
     width: 50%;
     position: absolute;
     margin-top: 5%;
     margin-left: 25%;
+    color: orange;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-box {
+    height: 100vh;
+    width: 80%;
+    background-color: transparent;
+    justify-content: center;
+}
+.textBox-row {
+    background-color: transparent;
+    display: flex;
+    margin-top: 5%;
+    gap: 20%;
+}
+.form-title {
+    margin-left: 30%;
+}
+.submitButton{
+    background-color: transparent;
+    height: 50px;
+    width: 30%;
+    margin-left: 30%;
+    color: orange;
 }

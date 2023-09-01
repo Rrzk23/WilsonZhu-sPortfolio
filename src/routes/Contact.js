@@ -6,6 +6,7 @@ const Contact = () => {
     <div>
       <Navbar/>
       <ContactUsForm/>
+
     </div>
   )
 }
