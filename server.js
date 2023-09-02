@@ -11,6 +11,13 @@ const app = express();
 const EMAIL = process.env.EMAIL;
 const PASSWORD = process.env.PASSWORD;
 const SENDER_EMAIL = process.env.SENDER_EMAIL;
+const rateLimit = require("express-rate-limit");
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15分钟
+  max: 5 //每个IP在15分钟内只允许5个请求
+});
+app.use("/send-email", limiter);
 // Middleware
 app.use(bodyParser.json());
 app.use("/", router);

@@ -24,6 +24,9 @@
     margin-top: 5%;
     gap: 20%;
 }
+.emailError{
+    color: red;
+}
 .form-title {
     margin-left: 30%;
 }

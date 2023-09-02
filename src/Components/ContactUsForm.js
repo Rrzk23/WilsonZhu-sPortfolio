@@ -2,8 +2,11 @@ import "./ContactUsForm.css"
 import React , {useState}from 'react'
 import TextBox from "./TextBox"
 import {sendEmail} from "../functions/submit"
+import validator from 'validator';
+
 const ContactUsForm = () => {
   // initial state for the form
+  const [emailError, setEmailError] = useState('');
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -14,10 +17,17 @@ const ContactUsForm = () => {
 // where every time a user input something. updating the name of that element with the new value
 const handleInputChange = (e) => {
   const { id, value } = e.target;
+  if (id === 'email' && !validator.isEmail(value)) {
+    setEmailError("please enter valid email")
+  }
+  else {
+    setEmailError('');
+  }
   setFormData(prevState => ({
       ...prevState,
       [id]: value
   }));
+  
 };
 
 const handleSubmit = async (e) => {
@@ -38,12 +48,15 @@ const handleSubmit = async (e) => {
         </div>
         <div className="textBox-row">
         <TextBox id = 'email' content = 'E-mail' isRequired={true} value={formData.email} onChange={handleInputChange}/>
+        
         <TextBox id = 'phoneNumber' content = 'Phone Number'value={formData.phoneNumber} onChange={handleInputChange}/>
         </div>
         <div className="textBox-row">
         <TextBox id = 'comments' content = 'Any things you would like to say to me :)' isTextArea={true} value={formData.comments} onChange={handleInputChange}/>
+
         </div>
         <div className="textBox-row">
+        
         <button className="submitButton" type = 'submit' >Submit</button>
         </div>
     </form>
