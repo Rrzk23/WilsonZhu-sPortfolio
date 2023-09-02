@@ -1,7 +1,7 @@
 export const sendEmail = async (formData) => {
 
     try {
-        const response = await fetch('https://wilson-portfolio-backend.onrender.com/send-email', {
+        const response = await fetch('https://wilsonzhubackend.onrender.com/send-email', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
