@@ -1,0 +1,5 @@
+red:99
+yellow:100
+white:70
+black:66
+green:88
