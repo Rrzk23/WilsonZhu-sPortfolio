@@ -20,7 +20,7 @@ const handleInputChange = (e) => {
   if (id === 'email' && !validator.isEmail(value)) {
     setEmailError("please enter valid email")
   }
-  else {
+  else if(validator.isEmail(formData.email)) {
     setEmailError('');
   }
   setFormData(prevState => ({
@@ -32,7 +32,13 @@ const handleInputChange = (e) => {
 
 const handleSubmit = async (e) => {
   e.preventDefault();
-  await sendEmail(formData);
+  if (!emailError) {
+    // 如果验证通过，发送数据到后端
+    await sendEmail(formData);
+  } else {
+    alert("Please enter valid email before submit!");
+  }
+
 };
 
   return (
@@ -56,7 +62,7 @@ const handleSubmit = async (e) => {
 
         </div>
         <div className="textBox-row">
-        
+        {emailError && <span className="emailError">{emailError}</span>}
         <button className="submitButton" type = 'submit' >Submit</button>
         </div>
     </form>
