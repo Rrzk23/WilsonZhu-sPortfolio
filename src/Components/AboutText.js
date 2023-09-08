@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AboutText.css"
+import statement from "../assests/statement.pdf";
 //import AboutLink from '../Buttons/aboutLinks'
 const AboutText = () => {
   const openAboutTitlesContent = (event, titleName) => {
@@ -74,7 +75,7 @@ const AboutText = () => {
           </li>
           <li>
             Academic Transcript<br />
-            <a href="#transcript">Transcript</a>
+            <a href = {statement}>Transcript</a>
           </li>
         </ul>
       </div>
