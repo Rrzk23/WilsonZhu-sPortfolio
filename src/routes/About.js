@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar';
 import AboutText from '../Components/AboutText';
 import "./About.css";
-import image from "../assests/background.gif";
+import image from "../assests/myPicture.jpg";
 
 
 const About = () => {
