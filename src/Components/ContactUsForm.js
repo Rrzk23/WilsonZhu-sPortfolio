@@ -16,13 +16,7 @@ const ContactUsForm = () => {
 });
 // where every time a user input something. updating the name of that element with the new value
 const handleInputChange = (e) => {
-  const { id, value } = e.target;
-  if (id === 'email' && !validator.isEmail(value)) {
-    setEmailError("please enter valid email")
-  }
-  else if(validator.isEmail(formData.email)) {
-    setEmailError('');
-  }
+
   setFormData(prevState => ({
       ...prevState,
       [id]: value
@@ -32,11 +26,11 @@ const handleInputChange = (e) => {
 
 const handleSubmit = async (e) => {
   e.preventDefault();
-  if (!emailError) {
+  if (validator.isEmail(formData.email)) {
     // 如果验证通过，发送数据到后端
     await sendEmail(formData);
   } else {
-    alert("Please enter valid email before submit!");
+    alert("Please enter a valid email before submit!");
   }
 
 };
@@ -62,7 +56,7 @@ const handleSubmit = async (e) => {
 
         </div>
         <div className="textBox-row">
-        {emailError && <span className="emailError">{emailError}</span>}
+
         <button className="submitButton" type = 'submit' >Submit</button>
         </div>
     </form>

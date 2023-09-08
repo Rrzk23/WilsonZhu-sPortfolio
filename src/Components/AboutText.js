@@ -70,7 +70,7 @@ const AboutText = () => {
           </li>
           <li>
             Course Knowledge & Work<br />
-            <a href="#portfolio">University Portfolio</a>
+            <a href="#portfolio">University Knowledge</a>
           </li>
           <li>
             Academic Transcript<br />
@@ -83,7 +83,7 @@ const AboutText = () => {
           <li>
             Git<br />
             <span>
-              <a href="#git">This website folder can be found on my GitHub site!</a>
+              <a href='https://github.com/Rrzk23/WilsonZhu-sPortfolio'>This website folder can be found on my GitHub site!</a>
             </span>
           </li>
           <li>
@@ -92,15 +92,15 @@ const AboutText = () => {
           </li>
           <li>
             Algorithm<br />
-            <span>merge sort, Dijkstra, minimum spanning tree, divide and conquer, binary search.</span>
+            <span>merge sort, Dijkstra, minimum spanning tree, divide and conquer, binary search, dynamic Programming, string matching.</span>
           </li>
           <li>
             Object Oriented Programming<br />
-            <span>Java, JavaScript, TypeScript</span>
+            <span>Java, JavaScript, TypeScript, </span>
           </li>
           <li>
             Web design<br />
-            <span>HTML, CSS, JavaScript, JSON, API deploy</span>
+            <span>HTML, CSS, JavaScript, React, Node.js, deployment </span>
           </li>
         </ul>
       </div>
