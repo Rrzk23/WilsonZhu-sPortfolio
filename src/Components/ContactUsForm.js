@@ -16,7 +16,7 @@ const ContactUsForm = () => {
 });
 // where every time a user input something. updating the name of that element with the new value
 const handleInputChange = (e) => {
-
+  const {id, value} = e.target;
   setFormData(prevState => ({
       ...prevState,
       [id]: value
