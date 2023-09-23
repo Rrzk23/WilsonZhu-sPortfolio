@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WilsonZhu-sPortfolio/static/css/main.a13941c5.css",
-    "main.js": "/WilsonZhu-sPortfolio/static/js/main.6d35bfc1.js",
-    "static/media/background2.gif": "/WilsonZhu-sPortfolio/static/media/background2.fdf6a1a532cbf98a1598.gif",
+    "main.css": "/WilsonZhu-sPortfolio/static/css/main.5cf8f325.css",
+    "main.js": "/WilsonZhu-sPortfolio/static/js/main.b150ab65.js",
     "static/media/myPicture.jpg": "/WilsonZhu-sPortfolio/static/media/myPicture.cba5cc242021dd241d2d.jpg",
+    "static/media/CV.pdf": "/WilsonZhu-sPortfolio/static/media/CV.ff88d5b442d4f0a3abfd.pdf",
     "static/media/statement.pdf": "/WilsonZhu-sPortfolio/static/media/statement.75739dba9c65e42e4f9c.pdf",
     "index.html": "/WilsonZhu-sPortfolio/index.html",
-    "main.a13941c5.css.map": "/WilsonZhu-sPortfolio/static/css/main.a13941c5.css.map",
-    "main.6d35bfc1.js.map": "/WilsonZhu-sPortfolio/static/js/main.6d35bfc1.js.map"
+    "main.5cf8f325.css.map": "/WilsonZhu-sPortfolio/static/css/main.5cf8f325.css.map",
+    "main.b150ab65.js.map": "/WilsonZhu-sPortfolio/static/js/main.b150ab65.js.map"
   },
   "entrypoints": [
-    "static/css/main.a13941c5.css",
-    "static/js/main.6d35bfc1.js"
+    "static/css/main.5cf8f325.css",
+    "static/js/main.b150ab65.js"
   ]
 }
