@@ -18,7 +18,7 @@
     display: inline-block;
 
     margin-top: 5%;
-
+    
     text-decoration: dashed;
 
     background-color: DodgerBlue;
@@ -28,6 +28,10 @@
     cursor: pointer;
     font-size: 20px;
   }
+  #second{
+    margin-left: 5%
+  }
+  
   .CV:hover {
     background-color: RoyalBlue;
   }
