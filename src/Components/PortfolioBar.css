@@ -35,16 +35,16 @@
   }
   
   .portfolio-bar:hover .description {
-    opacity: 0.5;
+    opacity: 0.8;
 
   }
   .title {
     color: orange;
-    margin-left: 40%;
+    text-align: center;
   }
   .description p {
     margin: 5%;
     font-weight: bold;
-    color: orange;
+    color: white;
     
   }

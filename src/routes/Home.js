@@ -13,6 +13,7 @@ const Home = () => {
             <h1>Hi, I'm <span>Wilson</span> From Sydney!</h1>
             <a className='CV' href={CV}>My CV</a>
             <a className='CV' id = "second" href={Statement}>Academic Statement</a>
+            <a className='CV' id = "second" href={"https://github.com/Rrzk23/WilsonZhu-sPortfolio"}>Site's github link</a>
           </div>
 
         </div>

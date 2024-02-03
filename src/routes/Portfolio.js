@@ -3,33 +3,35 @@ import Navbar from '../Components/Navbar';
 import PortfolioBar from '../Components/PortfolioBar';
 import "./Portfolio.css";
 import eventStreaming from "../assests/eventStreaming.png";
-import images from "../assests/images.jpg";
+import robotics from "../assests/robotics.pdf";
+import roboticsS from "../assests/roboticsS.png";
 import Satellite from "../assests/satellite.png";
+import wiseStay from "../assests/wiseStay.png"
 const Portfolio = () => {
 
   const projects = [
     {
-      image: eventStreaming, 
-      link: 'https://www.google.com/',
+      image: wiseStay, 
+      link: 'https://www.wisestay.com.au/',
       description: 'This is a simplify version of Kafka ',
-      title:  'Event streaming system modelling',
+      title:  'WiseStay website design and functionality',
     },
     {
-      image: Satellite, 
-      link: 'https://example.com/project2',
+      image: roboticsS, 
+      link: robotics,
       description: 'Project 2 Description',
-      title:  'Satellite communicate system modelling',
+      title:  'Maze Exploration TurtleBot',
     },
     {
       image: eventStreaming,
-      link: 'https://example.com/project2',
+      link: 'https://nw-syd-gitlab.cseunsw.tech/COMP2511/23T2/students/z5423255/assignment-iii',
       description: 'Project 2 Description',
-      title:  'Key Wrod Matching Algorithm',
+      title:  'EventStreaming Java software design and engineering',
     },
     {
-      image: eventStreaming, 
-      link: 'https://example.com/project2',
-      description: 'Project 2 Description',
+      image: Satellite, 
+      link: 'https://nw-syd-gitlab.cseunsw.tech/COMP2511/23T2/students/z5423255/assignment-i',
+      description: 'Satellite communication assignment in Java',
       title:  '',
     },
     // Add more projects as needed
@@ -38,7 +40,6 @@ const Portfolio = () => {
     <div>
 
       <Navbar/>
-      <h1>My portfolio(not implement anything yet)</h1>
       
       <div className="bar-row">
       {projects.map((project, index) => (
