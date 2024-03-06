@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/WilsonZhu-sPortfolio/static/css/main.bf9244de.css",
-    "main.js": "/WilsonZhu-sPortfolio/static/js/main.1902dc6e.js",
+    "main.js": "/WilsonZhu-sPortfolio/static/js/main.59055f1d.js",
     "static/media/background.gif": "/WilsonZhu-sPortfolio/static/media/background.1d7e62aecdcc2adbd7d3.gif",
     "static/media/roboticsS.png": "/WilsonZhu-sPortfolio/static/media/roboticsS.d1a92b648756ba4b2f75.png",
     "static/media/wiseStay.png": "/WilsonZhu-sPortfolio/static/media/wiseStay.9c4380e5f57d1a8559b3.png",
     "static/media/robotics.pdf": "/WilsonZhu-sPortfolio/static/media/robotics.d88bc66bb91af74da0bc.pdf",
     "static/media/myPicture2.jpg": "/WilsonZhu-sPortfolio/static/media/myPicture2.ccc6f0c4ad32b996e199.jpg",
-    "static/media/CV.pdf": "/WilsonZhu-sPortfolio/static/media/CV.7bedf40e7c0489ff81d0.pdf",
+    "static/media/CV.pdf": "/WilsonZhu-sPortfolio/static/media/CV.165c72b58f1ba4b83262.pdf",
     "static/media/statement.pdf": "/WilsonZhu-sPortfolio/static/media/statement.79595c34bc4fd44f8782.pdf",
     "index.html": "/WilsonZhu-sPortfolio/index.html",
     "main.bf9244de.css.map": "/WilsonZhu-sPortfolio/static/css/main.bf9244de.css.map",
-    "main.1902dc6e.js.map": "/WilsonZhu-sPortfolio/static/js/main.1902dc6e.js.map"
+    "main.59055f1d.js.map": "/WilsonZhu-sPortfolio/static/js/main.59055f1d.js.map"
   },
   "entrypoints": [
     "static/css/main.bf9244de.css",
-    "static/js/main.1902dc6e.js"
+    "static/js/main.59055f1d.js"
   ]
 }
