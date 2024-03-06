@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import "./Home.css";
 import CV from "../assests/CV.pdf"
-import Statement from "../assests/CV.pdf"
+import Statement from "../assests/statement.pdf"
 const Home = () => {
     return (
         <div id="header">
